@@ -11,7 +11,7 @@ __pycache__/
 *.pyc
 
 # Data and Outputs (Large files)
-data/*.csv
+# data/*.csv
 # outputs/*.csv
 # outputs/*.png
 # outputs/*.txt
