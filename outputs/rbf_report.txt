@@ -1,0 +1,9 @@
+
+        ========================================
+        FINAL RBF ASSIGNMENT REPORT DATA:
+        - Number of Hidden Units: 200
+        - Kernel Width (sigma):   0.1224
+        - Final Test Accuracy:    75.1667%
+        - F1-Score (Macro):      0.7521
+        ========================================
+        

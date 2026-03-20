@@ -1,17 +1,17 @@
-# Python
-__pycache__/
-*.py[cod]
-*.pyo
-
-# Virtual environments
+# Virtual Environment
+/bin/
+/include/
+/lib/
+/share/
+pyvenv.cfg
 .venv/
-venv/
 
-# Jupyter
-.ipynb_checkpoints/
+# Python cache
+__pycache__/
+*.pyc
 
-# VS Code
-.vscode/
-
-# macOS
-.DS_Store
+# Data and Outputs (Large files)
+# data/*.csv
+# outputs/*.csv
+# outputs/*.png
+# outputs/*.txt
