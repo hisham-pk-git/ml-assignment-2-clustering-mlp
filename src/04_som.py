@@ -11,7 +11,7 @@ def main():
     X = pd.read_csv(STD_CSV).values
     n, d = X.shape
 
-    # ---- SOM hyperparameters (report these) ----
+    # ---- SOM hyperparameters  ----
     grid_x, grid_y = 15, 15
     sigma = 2.0                    # neighborhood radius
     learning_rate = 0.5            # initial LR

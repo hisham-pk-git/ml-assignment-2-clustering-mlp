@@ -13,7 +13,7 @@ SOM_LABELS = "outputs/som_labels.csv"
 FEATURES = ["T", "P", "TC", "SV"]
 
 def make_quality_classes(idx_series):
-    # 33/33/33 quantile split (justify in report)
+    # 33/33/33 quantile split 
     q1 = idx_series.quantile(1/3)
     q2 = idx_series.quantile(2/3)
 

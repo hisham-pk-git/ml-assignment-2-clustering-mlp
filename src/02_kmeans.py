@@ -41,8 +41,7 @@ def main():
 
     print("=== KMeans (K=3) ===")
     print(f"Initialization method: {init_method}")
-    # Note: sklearn doesn't expose the chosen initial centers after fit.
-    # To explicitly report initial centroids, we can recreate them by selecting the same random indices:
+    
     rng = np.random.RandomState(SEED)
     init_idx = rng.choice(X.shape[0], 3, replace=False)
     init_centroids = X[init_idx]
