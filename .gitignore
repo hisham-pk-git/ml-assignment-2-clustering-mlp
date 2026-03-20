@@ -1,0 +1,17 @@
+# Virtual Environment
+/bin/
+/include/
+/lib/
+/share/
+pyvenv.cfg
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Data and Outputs (Large files)
+data/*.csv
+# outputs/*.csv
+# outputs/*.png
+# outputs/*.txt
